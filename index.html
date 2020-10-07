@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="grey">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="axis">
+      <div id="thumb">
+
+      </div>
+    </div>
+    <div id="buttons">
+      <div id="button-A" data-button="0" class="button">A</div>
+      <div id="button-B" data-button="1" class="button">B</div>
+      <div id="button-X" data-button="2" class="button">X</div>
+      <div id="button-Y" data-button="3" class="button">Y</div>
+    </div>
+    <div id="triggers">
+      <div id="trigger-L" data-button="4" class="button trigger">L</div>
+      <div id="trigger-R" data-button="5" class="button trigger">R</div>
+    </div>
+    <span id="connection-led"></span>
+    <div id="overlay">
+      <div id="overlay-body">
+
+      </div>
+    </div>
+    <script src="/controller.js" charset="utf-8"></script>
+  </body>
+</html>

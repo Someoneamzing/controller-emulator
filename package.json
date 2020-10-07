@@ -1,0 +1,19 @@
+{
+  "name": "controller-emulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^11.0.0-beta.8",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "vgen-xbox": "^1.0.0",
+    "vjoy": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC"
+}
